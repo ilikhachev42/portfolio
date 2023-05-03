@@ -38,6 +38,7 @@ body {
   height: 100%;
   margin: 0;
   background-color: var(--main-bg);
+  font-family: 'Lato';
   font-size: 18px;
   line-height: 1.4;
 }
@@ -178,14 +179,22 @@ body {
   height: 1px;
 }
 
+.big-spacer {
+  padding: 30px 0px;
+  height: 1px;
+}
+
 .text-center {
   text-align: center !important;
 }
 
 .welcome-text {
+  font-size: 1.7rem;
+}
+
+h1, h2 {
   color: var(--main-buttons-border);
   font-family: monospace;
-  font-size: 1.7rem;
   font-weight: 700;
   margin: .6rem 0;
 }
@@ -275,4 +284,73 @@ blockquote footer::before {
   width: 50px;
   max-height: 55px;
   margin-inline: 5px;
+}
+
+/* Portfolio */
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 100%;
+}
+
+.big-heading {
+  font-size: 3rem;
+}
+
+.header-icon {
+  width: 100px;
+  display: block;
+  margin: auto;
+}
+
+.super-block-intro-page p {
+  font-size: 1.3rem;
+}
+
+p {
+  line-height: 1.8rem;
+  color: var(--main-buttons-border);
+  font-weight: 400;
+  margin: 0 0 1.2rem;
+}
+
+.alert {
+  padding: 15px;
+  margin-top: 2rem;
+  margin-bottom: 25px;
+  border: 1px solid transparent;
+  border-radius: 0;
+}
+
+.alert-info {
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  color: #31708f
+}
+
+.big-subheading {
+  font-size: 2rem;
+}
+
+/* About */
+.photo-container {
+  
+}
+
+.text-about {
+  
+}
+
+.photo-container p {
+  font-size: 1.5rem;
+}
+
+.awesome {
+  float: right;
+  width: 450px;
+}
+
+.skill-icon {
+  width: 100px;
 }
