@@ -334,16 +334,19 @@ p {
 }
 
 /* About */
-.photo-container {
-  
-}
 
 .text-about {
-  
+  float: inline-start;
 }
 
 .photo-container p {
   font-size: 1.5rem;
+}
+
+.p-container {
+  width: 50%;
+  margin-top: 10%;
+  display: block;
 }
 
 .awesome {
@@ -351,6 +354,31 @@ p {
   width: 450px;
 }
 
+.awesome-icons {
+  margin-top: 7.5%;
+}
+
 .skill-icon {
+  padding-right: 15px;
   width: 100px;
+}
+
+.html-icon {
+  height: 100px;
+}
+
+.css-icon {
+  height: 100px;
+}
+
+.react-icon {
+  height: 100px;
+}
+
+.bs-icon {
+  height: 100px;
+}
+
+.sass-icon {
+  height: 100px;
 }
